@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "declaration": false,
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "keyofStringsOnly": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "paths": {
+      "*": [
+        "src/*",
+        "examples/*",
+        "*.ts",
+        "*.tsx"
+      ]
+    },
+    "types": [
+      "webpack-env"
+    ]
+  },
+  "include": [
+    "./src/*.ts",
+    "./src/*.tsx",
+    "./examples/*.ts",
+    "./examples/*.tsx"
+  ],
+  "exclude": [
+    "bin",
+    "node_modules",
+    "tests"
+  ]
+}

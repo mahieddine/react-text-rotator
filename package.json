@@ -1,0 +1,49 @@
+{
+  "name": "react-text-rotator",
+  "version": "1.0.0",
+  "description": "A super simple rotating text react library to your webapp with little to no markup",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build-dev": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors  --mode development",
+    "dev": "./node_modules/.bin/webpack --config webpack.config.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahieddine/react-text-rotator.git"
+  },
+  "keywords": [
+    "text-rotator",
+    "headline",
+    "banner",
+    "react"
+  ],
+  "author": "Mahieddine Cherif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahieddine/react-text-rotator/issues"
+  },
+  "homepage": "https://github.com/mahieddine/react-text-rotator#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/webpack-env": "^1.14.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "event-source-polyfill": "^1.0.8",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-env": "^0.8.0"
+  }
+}
