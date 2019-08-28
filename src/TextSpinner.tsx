@@ -1,13 +1,13 @@
 import React, {Children} from 'react'
-import {TextRotatorPropreties} from './TextRotatorPropreties'
+import {TextSpinnerPropreties} from 'TextSpinnerPropreties.ts'
 
-type AllProps = TextRotatorPropreties
+type AllProps = TextSpinnerPropreties
 
 interface TextRotatorState {
     displayedItemIdx: number
 }
 
-class TextRotator extends React.Component<AllProps, TextRotatorState> {
+class TextSpinner extends React.Component<AllProps, TextRotatorState> {
 
     readonly children: Array<React.ReactNode>
     readonly interval: number
@@ -58,4 +58,4 @@ class TextRotator extends React.Component<AllProps, TextRotatorState> {
     }
 }
 
-export {TextRotator}
+export {TextSpinner}

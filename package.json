@@ -1,14 +1,15 @@
 {
-  "name": "react-text-rotator",
+  "name": "react-text-spinner",
   "version": "1.0.0",
   "description": "A super simple rotating text react library to your webapp with little to no markup",
   "main": "index.js",
   "directories": {
+    "example": "examples",
     "test": "test"
   },
   "scripts": {
-    "build-dev": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors  --mode development",
-    "dev": "./node_modules/.bin/webpack --config webpack.config.js --watch --mode development"
+    "build-dev": "webpack --config webpack.config.js --progress --colors  --mode development",
+    "dev": "webpack --config webpack.config.js --watch --mode development"
   },
   "repository": {
     "type": "git",

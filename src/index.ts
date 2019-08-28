@@ -1,3 +1,3 @@
-export {TextRotator} from './TextRotator'
+export {TextSpinner} from './TextSpinner'
 
 
