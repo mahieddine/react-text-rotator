@@ -1,5 +1,5 @@
 import React, {Children} from 'react'
-import {TextSpinnerPropreties} from 'TextSpinnerPropreties.ts'
+import {TextSpinnerPropreties} from './TextSpinnerPropreties'
 
 type AllProps = TextSpinnerPropreties
 

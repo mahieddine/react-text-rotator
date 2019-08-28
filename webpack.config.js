@@ -15,7 +15,7 @@ module.exports = (env) => {
     return [{
         context: path.resolve(srcRoot),
         entry: {
-            'main': './index.tsx',
+            'main': './examples/index.tsx',
             vendor: [
                 'react', 'react-dom', 'event-source-polyfill', 'react-router-dom',
             ]
